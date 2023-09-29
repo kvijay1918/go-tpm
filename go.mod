@@ -1,4 +1,4 @@
-module github.com/google/go-tpm
+module github.com/kvijay1918/go-tpm
 
 go 1.20
 
