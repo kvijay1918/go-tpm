@@ -3,7 +3,7 @@
 package transport
 
 import (
-	legacy "github.com/google/go-tpm/legacy/tpm2"
+	legacy "github.com/kvijay1918/go-tpm/legacy/tpm2"
 )
 
 // Wrap the legacy OpenTPM function so callers don't have to import both the

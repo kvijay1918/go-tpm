@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/google/go-tpm/tpmutil"
+	"github.com/kvijay1918/go-tpm/tpmutil"
 )
 
 // GetRandom gets random bytes from the TPM.

@@ -25,7 +25,7 @@ import (
 	_ "crypto/sha256"
 	_ "crypto/sha512"
 
-	"github.com/google/go-tpm/tpmutil"
+	"github.com/kvijay1918/go-tpm/tpmutil"
 )
 
 var hashInfo = []struct {

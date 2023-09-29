@@ -3,7 +3,7 @@ package tpm2
 import (
 	"fmt"
 
-	"github.com/google/go-tpm/tpmutil"
+	"github.com/kvijay1918/go-tpm/tpmutil"
 )
 
 type (

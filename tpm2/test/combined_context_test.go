@@ -5,9 +5,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	. "github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpm2/transport"
-	"github.com/google/go-tpm/tpm2/transport/simulator"
+	. "github.com/kvijay1918/go-tpm/tpm2"
+	"github.com/kvijay1918/go-tpm/tpm2/transport"
+	"github.com/kvijay1918/go-tpm/tpm2/transport/simulator"
 )
 
 func ReadPublicName(t *testing.T, handle TPMHandle, thetpm transport.TPM) TPM2BName {

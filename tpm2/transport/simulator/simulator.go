@@ -5,8 +5,8 @@ import (
 	"io"
 
 	"github.com/google/go-tpm-tools/simulator"
-	"github.com/google/go-tpm/tpm2/transport"
-	"github.com/google/go-tpm/tpmutil"
+	"github.com/kvijay1918/go-tpm/tpm2/transport"
+	"github.com/kvijay1918/go-tpm/tpmutil"
 )
 
 // TPM represents a connection to a TPM simulator.

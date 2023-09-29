@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	. "github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpm2/transport"
-	"github.com/google/go-tpm/tpm2/transport/simulator"
+	. "github.com/kvijay1918/go-tpm/tpm2"
+	"github.com/kvijay1918/go-tpm/tpm2/transport"
+	"github.com/kvijay1918/go-tpm/tpm2/transport/simulator"
 )
 
 // Test creating a sealed data blob on the standard-template EK using its policy.

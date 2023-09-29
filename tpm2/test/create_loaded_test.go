@@ -3,9 +3,9 @@ package tpm2test
 import (
 	"testing"
 
-	. "github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpm2/transport"
-	"github.com/google/go-tpm/tpm2/transport/simulator"
+	. "github.com/kvijay1918/go-tpm/tpm2"
+	"github.com/kvijay1918/go-tpm/tpm2/transport"
+	"github.com/kvijay1918/go-tpm/tpm2/transport/simulator"
 )
 
 func getDeriver(t *testing.T, thetpm transport.TPM) NamedHandle {

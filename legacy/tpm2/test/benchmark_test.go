@@ -18,7 +18,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	. "github.com/google/go-tpm/legacy/tpm2"
+	. "github.com/kvijay1918/go-tpm/legacy/tpm2"
 )
 
 func BenchmarkRSA2048Signing(b *testing.B) {
