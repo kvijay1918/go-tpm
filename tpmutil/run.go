@@ -18,6 +18,7 @@ package tpmutil
 
 import (
 	"errors"
+	"fmt"
 	"io"
 	"os"
 	"time"
@@ -40,6 +41,8 @@ func RunCommandRaw(rw io.ReadWriter, inb []byte) ([]byte, error) {
 	var backoffFac uint
 	var rh responseHeader
 	var outb []byte
+
+	fmt.Println("\nVIJAY 2 - RunCommandRaw")
 
 	for {
 		if _, err := rw.Write(inb); err != nil {
