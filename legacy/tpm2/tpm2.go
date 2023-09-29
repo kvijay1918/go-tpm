@@ -439,6 +439,7 @@ func decodeCreatePrimary(in []byte) (handle tpmutil.Handle, public, creationData
 // CreatePrimary initializes the primary key in a given hierarchy.
 // The second return value is the public part of the generated key.
 func CreatePrimary(rw io.ReadWriter, owner tpmutil.Handle, sel PCRSelection, parentPassword, ownerPassword string, p Public) (tpmutil.Handle, crypto.PublicKey, error) {
+	fmt.Println("\nVIJAY\n")
 	hnd, public, _, _, _, _, err := CreatePrimaryEx(rw, owner, sel, parentPassword, ownerPassword, p)
 	if err != nil {
 		return 0, nil, err
